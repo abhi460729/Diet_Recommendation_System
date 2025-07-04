@@ -1,0 +1,197 @@
+2025-07-04 20:25:19,385 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:25:19,469 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:25:19,480 - ERROR - Data loading error: invalid literal for int() with base 10: ' '
+2025-07-04 20:25:27,485 - INFO - Starting Tkinter main loop
+2025-07-04 20:25:39,298 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:25:39,352 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:25:39,358 - ERROR - Data loading error: invalid literal for int() with base 10: ' '
+2025-07-04 20:27:05,662 - INFO - Starting Tkinter main loop
+2025-07-04 20:29:49,370 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:29:49,415 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:29:49,430 - ERROR - Invalid VegNovVeg values found in rows: {'Food_items': {0: 'Asparagus Cooked'}, 'VegNovVeg': {0: ' '}}
+2025-07-04 20:29:49,430 - ERROR - Data loading error: VegNovVeg column contains invalid values (must be 0 or 1)
+2025-07-04 20:30:09,015 - INFO - Starting Tkinter main loop
+2025-07-04 20:35:14,405 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:35:14,451 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:35:14,460 - WARNING - Invalid VegNovVeg values found in rows: {'Food_items': {0: 'Asparagus Cooked'}, 'VegNovVeg': {0: ' '}}
+2025-07-04 20:35:14,469 - INFO - Corrected Carbohydrates column in inputfin.csv from input.csv
+2025-07-04 20:35:14,469 - ERROR - Data loading error: Missing column 0Calories in inputfin.csv
+2025-07-04 20:39:07,239 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:39:07,282 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:39:07,288 - WARNING - Invalid VegNovVeg values found in rows: {'Food_items': {0: 'Asparagus Cooked'}, 'VegNovVeg': {0: ' '}}
+2025-07-04 20:39:07,292 - INFO - Corrected Carbohydrates column in inputfin.csv from input.csv
+2025-07-04 20:39:07,293 - INFO - Data loaded successfully
+2025-07-04 20:39:07,293 - INFO - Preprocessing food data
+2025-07-04 20:39:07,294 - INFO - Clustering breakfast data
+2025-07-04 20:39:09,190 - INFO - K-Means clustering completed for breakfast
+2025-07-04 20:39:09,190 - INFO - Clustering lunch data
+2025-07-04 20:39:09,193 - INFO - K-Means clustering completed for lunch
+2025-07-04 20:39:09,193 - INFO - Clustering dinner data
+2025-07-04 20:39:09,195 - INFO - K-Means clustering completed for dinner
+2025-07-04 20:39:09,195 - INFO - Starting Tkinter main loop
+2025-07-04 20:39:37,141 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:39:37,141 - INFO - Validating user inputs
+2025-07-04 20:39:37,141 - INFO - Inputs validated successfully
+2025-07-04 20:39:37,141 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:37,141 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:46,881 - INFO - Processing diet recommendation for goal: weight_gain
+2025-07-04 20:39:46,882 - INFO - Validating user inputs
+2025-07-04 20:39:46,882 - INFO - Inputs validated successfully
+2025-07-04 20:39:46,882 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:46,882 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:48,222 - INFO - Processing diet recommendation for goal: weight_gain
+2025-07-04 20:39:48,223 - INFO - Validating user inputs
+2025-07-04 20:39:48,223 - INFO - Inputs validated successfully
+2025-07-04 20:39:48,223 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:48,223 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:48,425 - INFO - Processing diet recommendation for goal: weight_gain
+2025-07-04 20:39:48,425 - INFO - Validating user inputs
+2025-07-04 20:39:48,425 - INFO - Inputs validated successfully
+2025-07-04 20:39:48,425 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:48,425 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:50,323 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:50,323 - INFO - Validating user inputs
+2025-07-04 20:39:50,323 - INFO - Inputs validated successfully
+2025-07-04 20:39:50,323 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:50,323 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:50,511 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:50,511 - INFO - Validating user inputs
+2025-07-04 20:39:50,511 - INFO - Inputs validated successfully
+2025-07-04 20:39:50,512 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:50,512 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:50,714 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:50,714 - INFO - Validating user inputs
+2025-07-04 20:39:50,715 - INFO - Inputs validated successfully
+2025-07-04 20:39:50,715 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:50,715 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:51,425 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:51,426 - INFO - Validating user inputs
+2025-07-04 20:39:51,426 - INFO - Inputs validated successfully
+2025-07-04 20:39:51,426 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:51,426 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:51,628 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:51,628 - INFO - Validating user inputs
+2025-07-04 20:39:51,628 - INFO - Inputs validated successfully
+2025-07-04 20:39:51,628 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:51,628 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:39:51,832 - INFO - Processing diet recommendation for goal: weight_loss
+2025-07-04 20:39:51,833 - INFO - Validating user inputs
+2025-07-04 20:39:51,833 - INFO - Inputs validated successfully
+2025-07-04 20:39:51,833 - INFO - Calculating BMI and age class for weight=52.0, height=5.8, age=28
+2025-07-04 20:39:51,833 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:24,964 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:40:25,003 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:40:25,008 - WARNING - Invalid VegNovVeg values found in rows: {'Food_items': {0: 'Asparagus Cooked'}, 'VegNovVeg': {0: ' '}}
+2025-07-04 20:40:25,010 - INFO - Corrected Carbohydrates column in inputfin.csv from input.csv
+2025-07-04 20:40:25,011 - INFO - Data loaded successfully
+2025-07-04 20:40:25,011 - INFO - Preprocessing food data
+2025-07-04 20:40:25,012 - INFO - Clustering breakfast data
+2025-07-04 20:40:26,334 - INFO - K-Means clustering completed for breakfast
+2025-07-04 20:40:26,335 - INFO - Clustering lunch data
+2025-07-04 20:40:26,337 - INFO - K-Means clustering completed for lunch
+2025-07-04 20:40:26,337 - INFO - Clustering dinner data
+2025-07-04 20:40:26,340 - INFO - K-Means clustering completed for dinner
+2025-07-04 20:40:26,340 - INFO - Starting Tkinter main loop
+2025-07-04 20:40:52,332 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:52,333 - INFO - Validating user inputs
+2025-07-04 20:40:52,333 - INFO - Inputs validated successfully
+2025-07-04 20:40:52,333 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:52,333 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:54,909 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:54,909 - INFO - Validating user inputs
+2025-07-04 20:40:54,909 - INFO - Inputs validated successfully
+2025-07-04 20:40:54,910 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:54,910 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:55,977 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:55,977 - INFO - Validating user inputs
+2025-07-04 20:40:55,978 - INFO - Inputs validated successfully
+2025-07-04 20:40:55,978 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:55,978 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:56,689 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:56,689 - INFO - Validating user inputs
+2025-07-04 20:40:56,690 - INFO - Inputs validated successfully
+2025-07-04 20:40:56,690 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:56,690 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:57,101 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:57,102 - INFO - Validating user inputs
+2025-07-04 20:40:57,102 - INFO - Inputs validated successfully
+2025-07-04 20:40:57,102 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:57,102 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:57,456 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:57,457 - INFO - Validating user inputs
+2025-07-04 20:40:57,457 - INFO - Inputs validated successfully
+2025-07-04 20:40:57,457 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:57,457 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:57,722 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:57,722 - INFO - Validating user inputs
+2025-07-04 20:40:57,722 - INFO - Inputs validated successfully
+2025-07-04 20:40:57,722 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:57,722 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:58,056 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:58,057 - INFO - Validating user inputs
+2025-07-04 20:40:58,057 - INFO - Inputs validated successfully
+2025-07-04 20:40:58,057 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:58,057 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:58,280 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:58,281 - INFO - Validating user inputs
+2025-07-04 20:40:58,281 - INFO - Inputs validated successfully
+2025-07-04 20:40:58,281 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:58,281 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:58,489 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:58,490 - INFO - Validating user inputs
+2025-07-04 20:40:58,490 - INFO - Inputs validated successfully
+2025-07-04 20:40:58,490 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:58,490 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:58,700 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:58,701 - INFO - Validating user inputs
+2025-07-04 20:40:58,701 - INFO - Inputs validated successfully
+2025-07-04 20:40:58,701 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:58,701 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:59,056 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:59,056 - INFO - Validating user inputs
+2025-07-04 20:40:59,057 - INFO - Inputs validated successfully
+2025-07-04 20:40:59,057 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:59,057 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:59,356 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:59,356 - INFO - Validating user inputs
+2025-07-04 20:40:59,356 - INFO - Inputs validated successfully
+2025-07-04 20:40:59,356 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:59,357 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:59,671 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:59,671 - INFO - Validating user inputs
+2025-07-04 20:40:59,671 - INFO - Inputs validated successfully
+2025-07-04 20:40:59,671 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:59,671 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:40:59,908 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:40:59,908 - INFO - Validating user inputs
+2025-07-04 20:40:59,909 - INFO - Inputs validated successfully
+2025-07-04 20:40:59,909 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:40:59,909 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:41:00,111 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:41:00,111 - INFO - Validating user inputs
+2025-07-04 20:41:00,111 - INFO - Inputs validated successfully
+2025-07-04 20:41:00,111 - INFO - Calculating BMI and age class for weight=30.0, height=7.0, age=50
+2025-07-04 20:41:00,111 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:41:13,757 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:41:13,796 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:41:13,803 - WARNING - Invalid VegNovVeg values found in rows: {'Food_items': {0: 'Asparagus Cooked'}, 'VegNovVeg': {0: ' '}}
+2025-07-04 20:41:13,806 - INFO - Corrected Carbohydrates column in inputfin.csv from input.csv
+2025-07-04 20:41:13,806 - INFO - Data loaded successfully
+2025-07-04 20:41:13,806 - INFO - Preprocessing food data
+2025-07-04 20:41:13,807 - INFO - Clustering breakfast data
+2025-07-04 20:41:15,113 - INFO - K-Means clustering completed for breakfast
+2025-07-04 20:41:15,114 - INFO - Clustering lunch data
+2025-07-04 20:41:15,116 - INFO - K-Means clustering completed for lunch
+2025-07-04 20:41:15,116 - INFO - Clustering dinner data
+2025-07-04 20:41:15,120 - INFO - K-Means clustering completed for dinner
+2025-07-04 20:41:15,120 - INFO - Starting Tkinter main loop
+2025-07-04 20:41:40,373 - INFO - Processing diet recommendation for goal: healthy
+2025-07-04 20:41:40,373 - INFO - Validating user inputs
+2025-07-04 20:41:40,373 - INFO - Inputs validated successfully
+2025-07-04 20:41:40,373 - INFO - Calculating BMI and age class for weight=30.0, height=5.0, age=28
+2025-07-04 20:41:40,374 - ERROR - BMI/age class calculation error: BMI out of realistic range
+2025-07-04 20:53:32,625 - INFO - Initializing DietRecommendationSystem
+2025-07-04 20:53:32,677 - INFO - Loading data from input.csv and inputfin.csv
+2025-07-04 20:53:32,697 - ERROR - Data loading error: Error tokenizing data. C error: Expected 12 fields in line 36, saw 16
+
+2025-07-04 20:53:38,468 - INFO - Starting Tkinter main loop
